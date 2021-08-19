@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> meu site</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<style type="text/css">
+		
+		body {
+			background-image: url('imagens/purpleeyes.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-position: center;
+			font-family:  sans-serif;
+		}
+		.fundo {
+			background: black;
+			color: white;
+		 }
+
+		 .card {
+			 box-shadow: 1px 1px 1px black;
+			 background-color: black;
+			 padding: 30px;
+			 border-radius: 5px;
+		 }
+		 .form {
+			 width: 400px;
+			 margin: auto;
+			 padding-top: 40px;
+			 /*padding top é pra afastar da margem da pagina (topo) */
+		 }
+		 .card-top {
+			 text-align: center;
+			 color: white;
+		 }
+		 .imglogin {
+			 border-radius: 50px;
+			 width: 100px;
+			 box-shadow: 1px 1px 5px gray;
+
+		 }
+		 .card-group > label {
+			color: white;
+			display: block;
+
+		 }
+		 .card-group > input {
+			border-radius: 5px;
+			outline: 0;
+			width: 100%;
+			height: 25px;
+			padding: 5px;
+		 }
+		 .card-group {
+			 margin-bottom: 10px;
+
+		 }
+		 .card-group > button {
+			 background-image: linear-gradient(to left, #622569cc, #4040a1);
+			 width: 100%;
+			 border-radius: 30px;
+			 padding: 15px;
+			 color: white;
+			 border: 0px;
+			 outline: 0;
+		 }
+
+		 .btn button:hover{
+			 background-image: linear-gradient(to left,#541e5acc, #31315f);
+		 }
+	</style>
+</head>
+<body>
+ <h1 class="fundo"> Undergroud</h1>
+  <br id="formulario">
+  	
+  <form class="form" action="">
+	  <div class="card">
+		<div class="card-top">
+			<img class="imglogin" src="https://i.pinimg.com/originals/98/d1/42/98d142045121e90f467454c48fac3c27.jpg" alt="">
+			<h2>Login</h2>
+			<p> Seja bem-vindo e sinta-se a vontade</p>
+		</div>
+
+		<div class="card-group">
+			<label> E-mail</label>
+			<input type="email" name="email" placeholder="Digite seu e-mail" required>
+		</div>
+
+		<div class="card-group">
+			<label> Senha</label>
+			<input type="password" name="senha" placeholder="Digite sua senha" required>
+		</div>
+
+		<div class="card-group">
+			<label><input type="checkbox"> Lembre-me </label>
+			
+		</div>
+
+		<div class="card-group btn">
+			<button type="submit">ACESSAR</button>
+		</div>
+
+	  </div>
+
+			
+
+            
+		</form>
+</body>
+</html>
